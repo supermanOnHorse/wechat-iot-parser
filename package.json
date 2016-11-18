@@ -1,81 +1,23 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "wechat-iot-parser",
-        "scope": null,
-        "escapedName": "wechat-iot-parser",
-        "name": "wechat-iot-parser",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/home/zhongjia/WebstormProjects"
-    ]
-  ],
-  "_from": "wechat-iot-parser@latest",
-  "_id": "wechat-iot-parser@1.0.1",
-  "_inCache": true,
-  "_location": "/wechat-iot-parser",
-  "_nodeVersion": "4.5.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/wechat-iot-parser-1.0.1.tgz_1478849849112_0.3800538016948849"
+  "name": "wechat-iot-parser",
+  "version": "1.0.0",
+  "description": "wechat iot parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_npmUser": {
-    "name": "supermanonhorse",
-    "email": "948913886@qq.com"
-  },
-  "_npmVersion": "2.15.9",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "wechat-iot-parser",
-    "scope": null,
-    "escapedName": "wechat-iot-parser",
-    "name": "wechat-iot-parser",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/wechat-iot-parser/-/wechat-iot-parser-1.0.1.tgz",
-  "_shasum": "aea3cf8637b79d7bd799b6c9d4fdeab3fcee79e3",
-  "_shrinkwrap": null,
-  "_spec": "wechat-iot-parser",
-  "_where": "/home/zhongjia/WebstormProjects",
-  "author": {
-    "name": "supermanonhorse"
-  },
-  "dependencies": {
-    "mongodb": "^2.2.11",
-    "wechat-iot": "0.0.4"
-  },
-  "description": "",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "aea3cf8637b79d7bd799b6c9d4fdeab3fcee79e3",
-    "tarball": "https://registry.npmjs.org/wechat-iot-parser/-/wechat-iot-parser-1.0.1.tgz"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supermanOnHorse/wechat-iot-parser.git"
   },
   "keywords": [
     "wechat",
     "iot"
   ],
+  "author": "supermanonhorse",
   "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "supermanonhorse",
-      "email": "948913886@qq.com"
-    }
-  ],
-  "name": "wechat-iot-parser",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/supermanOnHorse/wechat-iot-parser/issues"
   },
-  "version": "1.0.1"
+  "homepage": "https://github.com/supermanOnHorse/wechat-iot-parser#readme"
 }
