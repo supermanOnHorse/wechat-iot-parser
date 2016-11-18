@@ -1,6 +1,6 @@
 var checkSignature = require("./lib/util");
 
-var wechat = function(config, db){
+var wechat = function(config, locals){
     return function (req, res) {
         if(req.method == "GET"){
             if(checkSignature(req.query.signature, req.query.timestamp, req.query.nonce, config.token)){
@@ -9,7 +9,7 @@ var wechat = function(config, db){
                 res.send("error");
             }
         }else{
-            var collection = db.collection('wechat-message');
+            var collection = locals.db.collection('wechat-message');
             collection.insertOne(req.body, function(err, result) {
                 console.log("Inserted wechat-message into the collection");
                 res.json({error_code: 0, error_msg: "ok"});
